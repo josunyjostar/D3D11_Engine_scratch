@@ -39,6 +39,12 @@
     <ClInclude Include="framework.h">
       <Filter>Source Files\99. headers\etc</Filter>
     </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>Source Files\99. headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>Source Files\99. headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GameCoding.rc">
@@ -58,6 +64,9 @@
       <Filter>Source Files\01. main</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
+      <Filter>Source Files\99. headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Types.h">
       <Filter>Source Files\99. headers</Filter>
     </ClCompile>
   </ItemGroup>
