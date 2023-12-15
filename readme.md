@@ -1,35 +1,35 @@
 vcpkg install list
 -------------
 <pre>
-assimp:x64-windows                                
-directxmath:x64-windows                           
-directxmesh:x64-windows                           
-directxtex:x64-windows                            
-directxtex[dx11]:x64-windows                      
-directxtex[openexr]:x64-windows                   
-directxtk:x64-windows                             
-draco:x64-windows                                 
-fp16:x64-windows                                  
-glm:x64-windows                                   
-imath:x64-windows                                 
-imgui:x64-windows                                 
-imgui[dx11-binding]:x64-windows                   
-imgui[win32-binding]:x64-windows                  
-kubazip:x64-windows                               
-minizip:x64-windows                               
-openexr:x64-windows                               
-physx:x64-windows                                 
-poly2tri:x64-windows                              
-polyclipping:x64-windows                          
-psimd:x64-windows                                 
-pugixml:x64-windows                               
-rapidjson:x64-windows                             
-stb:x64-windows                                   
-utfcpp:x64-windows                                
-vcpkg-cmake-config:x64-windows                    
-vcpkg-cmake-get-vars:x64-windows                  
-vcpkg-cmake:x64-windows                           
-zlib:x64-windows                                  
+vcpkg install assimp:x64-windows                                
+vcpkg install directxmath:x64-windows                           
+vcpkg install directxmesh:x64-windows                           
+vcpkg install directxtex:x64-windows                            
+vcpkg install directxtex[dx11]:x64-windows                      
+vcpkg install directxtex[openexr]:x64-windows                   
+vcpkg install directxtk:x64-windows                             
+vcpkg install draco:x64-windows                                 
+vcpkg install fp16:x64-windows                                  
+vcpkg install glm:x64-windows                                   
+vcpkg install imath:x64-windows                                 
+vcpkg install imgui:x64-windows                                 
+vcpkg install imgui[dx11-binding]:x64-windows                   
+vcpkg install imgui[win32-binding]:x64-windows                  
+vcpkg install kubazip:x64-windows                               
+vcpkg install minizip:x64-windows                               
+vcpkg install openexr:x64-windows                               
+vcpkg install physx:x64-windows                                 
+vcpkg install poly2tri:x64-windows                              
+vcpkg install polyclipping:x64-windows                          
+vcpkg install psimd:x64-windows                                 
+vcpkg install pugixml:x64-windows                               
+vcpkg install rapidjson:x64-windows                             
+vcpkg install stb:x64-windows                                   
+vcpkg install utfcpp:x64-windows                                
+vcpkg install vcpkg-cmake-config:x64-windows                    
+vcpkg install vcpkg-cmake-get-vars:x64-windows                  
+vcpkg install vcpkg-cmake:x64-windows                           
+vcpkg install zlib:x64-windows                               
 </pre>
 vcpkg list version info
 -------------
