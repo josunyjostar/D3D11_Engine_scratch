@@ -18,5 +18,8 @@ using namespace std;
 #include <wrl.h>
 #include <DirectXMath.h>
 
+#include <DirectXTex/DirectXTex.h>
+#include <DirectXTex/DirectXTex.inl>
+
 
 
