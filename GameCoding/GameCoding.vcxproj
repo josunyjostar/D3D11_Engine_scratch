@@ -140,6 +140,7 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Struct.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Typess.h" />
     <ClInclude Include="Values.h" />
   </ItemGroup>
   <ItemGroup>
@@ -147,7 +148,6 @@
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Types.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GameCoding.rc" />
