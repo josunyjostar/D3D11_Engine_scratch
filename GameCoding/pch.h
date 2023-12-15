@@ -21,5 +21,14 @@ using namespace std;
 #include <DirectXTex/DirectXTex.h>
 #include <DirectXTex/DirectXTex.inl>
 
+using namespace DirectX;
+using namespace Microsoft::WRL;
 
+#pragma comment(lib,"d3d11.lib")
+#pragma comment(lib,"d3dcompiler.lib")
 
+#ifdef _DEBUG
+#pragma comment(lib,"DirectXTex\\DirectXTex_debug.lib")
+#else
+#pragma comment(lib,"DirectXTex\\DirectXTex.lib")
+#endif
