@@ -10,6 +10,7 @@ git clone https://github.com/microsoft/vcpkg
 ## vcpkg install list
 -------------
 <pre>
+cmd에서 경로를 설치된 vcpkg로 옮긴다
 vcpkg install assimp:x64-windows                                
 vcpkg install directxmath:x64-windows                           
 vcpkg install directxmesh:x64-windows                           
