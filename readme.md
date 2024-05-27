@@ -4,6 +4,7 @@
 cmd 실행
 git clone https://github.com/microsoft/vcpkg
 .\vcpkg\bootstrap-vcpkg.bat
+.\vcpkg\vcpkg integrate install
 </pre>
 -------------
 ## vcpkg install list
