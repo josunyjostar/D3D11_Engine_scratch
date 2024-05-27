@@ -1,4 +1,12 @@
-vcpkg install list
+
+## vcpkg install 
+<pre>
+cmd 실행
+git clone https://github.com/microsoft/vcpkg
+.\vcpkg\bootstrap-vcpkg.bat
+</pre>
+-------------
+## vcpkg install list
 -------------
 <pre>
 vcpkg install assimp:x64-windows                                
@@ -31,7 +39,7 @@ vcpkg install vcpkg-cmake-get-vars:x64-windows
 vcpkg install vcpkg-cmake:x64-windows                           
 vcpkg install zlib:x64-windows                               
 </pre>
-vcpkg list version info
+## vcpkg list version info
 -------------
 | branchname | version / date |  desc | 
 |:------:|:---:|:---:|
